@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6425640338410758",
+    enable_page_level_ads: true
+  });
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.e-adys.com/xmlrpc.php">
+<title>3.3. EventEmitter Sınıfı &#8211; Dr. Erdinç UZUN</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dr. Erdinç UZUN &raquo; beslemesi" href="https://www.e-adys.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dr. Erdinç UZUN &raquo; yorum beslemesi" href="https://www.e-adys.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.e-adys.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='default-icon-styles-css'  href='https://www.e-adys.com/wp-content/plugins/svg-vector-icon-plugin/public/../admin/css/wordpress-svg-icon-plugin-style.min.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-starter-bootstrap-css-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/css/bootstrap.min.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-starter-font-awesome-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/css/font-awesome.min.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-starter-style-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='socicon-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/socicon.css?ver=20170209' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=20170209' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome.min.css?ver=20170209' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://www.e-adys.com/wp-includes/css/dashicons.min.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-wp-material-icons-css'  href='https://fonts.googleapis.com/icon?family=Material+Icons&#038;ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-wp-parent-style-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-wp-child-style-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-color-scheme-css-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/css/color-schemes/navy_indigo.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/www.e-adys.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"%s ile Kopyala, %s ile Yap\u0131\u015ft\u0131r","minimize":"Kodu Geni\u015fletmek \u0130\u00e7in T\u0131kla"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/html5.js?ver=3.7.0'></script>
+<![endif]-->
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/popper.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/bootstrap.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/theme-script.js?ver=4.9.1'></script>
+<link rel='https://api.w.org/' href='https://www.e-adys.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.e-adys.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.e-adys.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='3. Node.js Kavramları: Sunucu Tarafı' href='https://www.e-adys.com/web_tasarimi_programlama/3-node-js-kavramlari-sunucu-tarafi/' />
+<link rel='next' title='3.4. Buffers (Tamponlar)' href='https://www.e-adys.com/web_tasarimi_programlama/3-4-buffers-tamponlar/' />
+<meta name="generator" content="WordPress 4.9.1" />
+<link rel="canonical" href="https://www.e-adys.com/web_tasarimi_programlama/3-3-eventemitter-sinifi/" />
+<link rel='shortlink' href='https://www.e-adys.com/?p=594' />
+<link rel="alternate" type="application/json+oembed" href="https://www.e-adys.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-adys.com%2Fweb_tasarimi_programlama%2F3-3-eventemitter-sinifi%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.e-adys.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-adys.com%2Fweb_tasarimi_programlama%2F3-3-eventemitter-sinifi%2F&#038;format=xml" />
+    <style type="text/css">
+        #page-sub-header { background: #dd9933; }
+    </style>
+    		<style type="text/css" id="wp-custom-css">
+			h1.entry-title {
+    font-size: 28px;
+	  color:#3949ab;
+}
+
+#content.site-content {
+	padding-top: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+#masthead .navbar-brand a, #masthead .navbar-nav > li > a {
+    color: #ffffff;
+    font-weight: 600;
+    background: transparent;
+}
+		</style>
+	</head>
+
+<body class="post-template-default single single-post postid-594 single-format-standard">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    	<header id="masthead" class="site-header navbar-static-top" role="banner">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="navbar-brand">
+                                            <a class="website-title" href="https://www.e-adys.com/">Dr. Erdinç UZUN</a>
+                    
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end"><ul id="menu-ust-menu" class="navbar-nav"><li id="menu-item-13" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13"><a title="Anasayfa" href="https://www.e-adys.com/" class="nav-link">Anasayfa</a></li>
+<li id="menu-item-123" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a title="İletişim" href="https://www.e-adys.com/iletisim/" class="nav-link">İletişim</a></li>
+<li id="menu-item-149" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a title="Özgeçmiş" href="https://www.e-adys.com/ozgecmis/" class="nav-link">Özgeçmiş</a></li>
+<li id="menu-item-148" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a title="Yayınlar" href="https://www.e-adys.com/yayinlar/" class="nav-link">Yayınlar</a></li>
+<li id="menu-item-273" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a title="Arşiv" href="https://www.e-adys.com/arsiv/" class="nav-link">Arşiv</a></li>
+</ul></div>
+            </nav>
+        </div>
+	</header><!-- #masthead -->
+    	<div id="content" class="site-content">
+		<div class="container">
+			<div class="row">
+                
+	<section id="primary" class="content-area col-sm-12 col-md-12 col-lg-8">
+		<main id="main" class="site-main" role="main">
+
+		<article id="post-594" class="post-594 post type-post status-publish format-standard hentry category-node-js category-web_tasarimi_programlama">
+	<div class="post-thumbnail">
+			</div>
+	<header class="entry-header">
+		<h1 class="entry-title">3.3. EventEmitter Sınıfı</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p style="text-align: justify;">Node.js ortamında birçok nesne olay meydana getirir. Örneğin, bir net.Server her bağlantı için her seferinde bir olay oluşturur. Benzer şekilde fs.readStream dosya açarken bir olay oluşturur. Olay meydana getiren tüm nesneler olaylara örnek olarak gösterilebilir. Bu bölümde olayı meydana getirmek için kullanılan EventEmitter sınıfı incelenecektir.</p>
+<p><span id="more-594"></span></p>
+<h4>EventEmitter Sınıfı</h4>
+<p style="text-align: justify;">EventEmitter sınıfı events modülü içinde bulunur. Daha önceki bölümde gördüğümüz gibi önce require ile bu modül bağlanır ve ardından EventEmitter sınıfından nesne/ler oluşturulabilir.</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4aaae26774918434" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+var events = require('events');
+var eventEmitter = new events.EventEmitter();</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4aaae26774918434-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae26774918434-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4aaae26774918434-1"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">events</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">'events'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae26774918434-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">eventEmitter</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-r">new</span><span class="crayon-h"> </span><span class="crayon-v">events</span><span class="crayon-sy">.</span><span class="crayon-e">EventEmitter</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0016 seconds] -->
+<p>EmitterEmitter sınıfından oluşturulan nesne bir hata ile karşı karşıya kaldığında &#8220;error (hata)&#8221; olayını çağırır. Yeni bir dinleme eklendiğinde, &#8220;newListener&#8221;   olayı tetiklenir. Dinleme silindiğinde ise &#8220;removeListener&#8221; olayı tetiklenir. EventEmitter &#8220;on&#8221; ve &#8220;emit&#8221; gibi çoklu özelliği sağlar. &#8220;on&#8221; özelliği bir fonksiyonu olaya bağlamak için kullanılırken &#8220;emit&#8221; özelliği bir olayı tetiklemek için kullanılır.</p>
+<h4>EventEmitter Metodları</h4>
+<ul>
+<li style="text-align: justify;"><b>on(event, listener): </b>Belirtilen olay için listener dizisinin sonuna bir dinleme ekler. Dinlemenin eklenmiş olup olmadığını görmek için herhangi bir kontrol yapılmaz. Aynı olay ve dinleyiciyi bir araya getiren birden fazla çağrı, dinlemenin birden fazla kez eklenmesine neden olur. Çağrılar zincirlenebilir.</li>
+<li style="text-align: justify;"><strong>addListener(event, listener): &#8220;</strong>on&#8221; özelliği için takma ad.  (İşlevi aynı)</li>
+<li style="text-align: justify;"><strong>once(event, listener): </strong>Olaya bir kerelik dinleyici ekler. Bu dinleyici, yalnızca olayı tetiklediğinde, yani kaldırıldıktan sonra çağrılır. Verici gönderir, bu nedenle çağrılar zincirlenebilir.</li>
+<li style="text-align: justify;"><strong><b>removeListener</b>(event, listener): </strong>Belirtilen olay için listener dizisinden bir dinleme kaldırır. Listener dizisinin indisleri güncellenir. removeListener, Listener dizisinden en fazla bir örneğini kaldıracaktır. Birden fazla dinlemeyi kaldırmak için removeListener birden çok kez çağrılmalıdır. Yapı, zircirli bir şekilde çalışır.</li>
+<li style="text-align: justify;"><strong>removeAllListeners([event]):</strong> Belirli bir olay için tüm dinlemeleri kaldırır.</li>
+<li style="text-align: justify;"><strong>setMaxListeners(n):</strong> Belirli bir olay için 10&#8217;dan fazla dinleme eklendiğinde EventEmitter uyarı üretir. Ancak bazı durumlarda 10&#8217;dan fazla dinlemeye ihtiyaç olabilir. Bu durumu ayarlamak için bu fonksiyon kullanılır.</li>
+<li style="text-align: justify;"><strong>listeners(event):</strong> Belirli bir olay için listener dizisini döndürür.</li>
+<li style="text-align: justify;"><strong>emit(event, [arg1], [arg2], [&#8230;]): </strong>Argümanlara göre sırayla her dinlemeyi çalıştırır. Eğer dinlemeler var ise true, aksi takdirde false döndürür.</li>
+<li style="text-align: justify;"><strong>listenerCount(emitter, event):</strong> Verilen bir olay için dinleme sayısını döndürür.</li>
+</ul>
+<h4>Olaylar</h4>
+<ul>
+<li><strong>newListener</strong>
+<ul>
+<li>event − String: olay adı</li>
+<li>listener − Function: olay fonksiyonu</li>
+<li>Bir olay bir listener&#8217;a eklendikten sonra herhangi bir zamanda ortaya çıkar. Bir olay tetiklendiğinde,  dinleyici olayın Listener dizisine henüz eklenmemiş olabilir.</li>
+</ul>
+</li>
+<li><strong>removeListener</strong>
+<ul>
+<li>event − String: olay adı</li>
+<li>listener − Function: olay fonksiyonu</li>
+<li>Bu olay bir dinleme çıkarıldığında ortaya çıkar. Bu olay tetiklendiğinde, listener dizisinden dinleme henüz kaldırılmamış olabilir.</li>
+</ul>
+</li>
+</ul>
+<h4>Bir örnek:</h4>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4aaae43331684819" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+
+// listener #1
+var listner1 = function listner1() {
+   console.log('listner1 calisti.');
+}
+
+// listener #2
+var listner2 = function listner2() {
+  console.log('listner2 calisti.');
+}
+
+// Baglanti olayini listner1 fonksiyonunu ile baglama
+eventEmitter.addListener('connection', listner1);
+
+// Baglanti olayini listner2 fonksiyonunu ile baglama
+eventEmitter.on('connection', listner2);
+
+var eventListeners = require('events').EventEmitter.listenerCount
+   (eventEmitter,'connection');
+console.log(eventListeners + " Listner(s) bagli olayi dinliyor.");
+
+// Baglanti olayini tetikle
+eventEmitter.emit('connection');
+
+// listner1 fonksiyonunun baglantisini kaldir.
+eventEmitter.removeListener('connection', listner1);
+console.log("Listner1 artik dinlenmiyor.");
+
+// Baglanti olayini tetikle
+eventEmitter.emit('connection');
+
+eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
+console.log(eventListeners + " Listner(s) bagli olayi dinliyor.");
+
+console.log("Program Bitti.");</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-2">2</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-4">4</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-6">6</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-8">8</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-10">10</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-12">12</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-14">14</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-16">16</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-18">18</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-20">20</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-22">22</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-23">23</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-24">24</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-25">25</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-26">26</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-27">27</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-28">28</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-29">29</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-30">30</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-31">31</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-32">32</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-33">33</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-34">34</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-35">35</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4aaae43331684819-36">36</div><div class="crayon-num" data-line="crayon-5a396e4aaae43331684819-37">37</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4aaae43331684819-1"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">events</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">'events'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">eventEmitter</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-r">new</span><span class="crayon-h"> </span><span class="crayon-v">events</span><span class="crayon-sy">.</span><span class="crayon-e">EventEmitter</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-3">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-4"><span class="crayon-c">// listener #1</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-5"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">listner1</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-h"> </span><span class="crayon-e">listner1</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-6"><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">'listner1 calisti.'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-7"><span class="crayon-sy">}</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-8">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-9"><span class="crayon-c">// listener #2</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-10"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">listner2</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-h"> </span><span class="crayon-e">listner2</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-11"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">'listner2 calisti.'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-12"><span class="crayon-sy">}</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-13">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-14"><span class="crayon-c">// Baglanti olayini listner1 fonksiyonunu ile baglama</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-15"><span class="crayon-v">eventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">addListener</span><span class="crayon-sy">(</span><span class="crayon-s">'connection'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">listner1</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-16">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-17"><span class="crayon-c">// Baglanti olayini listner2 fonksiyonunu ile baglama</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-18"><span class="crayon-v">eventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">on</span><span class="crayon-sy">(</span><span class="crayon-s">'connection'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">listner2</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-19">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-20"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">eventListeners</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">'events'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-v">EventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">listenerCount</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-21"><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-sy">(</span><span class="crayon-v">eventEmitter</span><span class="crayon-sy">,</span><span class="crayon-s">'connection'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-22"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-v">eventListeners</span><span class="crayon-h"> </span><span class="crayon-o">+</span><span class="crayon-h"> </span><span class="crayon-s">" Listner(s) bagli olayi dinliyor."</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-23">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-24"><span class="crayon-c">// Baglanti olayini tetikle</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-25"><span class="crayon-v">eventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">emit</span><span class="crayon-sy">(</span><span class="crayon-s">'connection'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-26">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-27"><span class="crayon-c">// listner1 fonksiyonunun baglantisini kaldir.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-28"><span class="crayon-v">eventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">removeListener</span><span class="crayon-sy">(</span><span class="crayon-s">'connection'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">listner1</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-29"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">"Listner1 artik dinlenmiyor."</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-30">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-31"><span class="crayon-c">// Baglanti olayini tetikle</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-32"><span class="crayon-v">eventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">emit</span><span class="crayon-sy">(</span><span class="crayon-s">'connection'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-33">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-34"><span class="crayon-v">eventListeners</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">'events'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-v">EventEmitter</span><span class="crayon-sy">.</span><span class="crayon-e">listenerCount</span><span class="crayon-sy">(</span><span class="crayon-v">eventEmitter</span><span class="crayon-sy">,</span><span class="crayon-s">'connection'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-35"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-v">eventListeners</span><span class="crayon-h"> </span><span class="crayon-o">+</span><span class="crayon-h"> </span><span class="crayon-s">" Listner(s) bagli olayi dinliyor."</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4aaae43331684819-36">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4aaae43331684819-37"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">"Program Bitti."</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0110 seconds] -->
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Yazı dolaşımı</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://www.e-adys.com/web_tasarimi_programlama/3-node-js-kavramlari-sunucu-tarafi/" rel="prev">3. Node.js Kavramları: Sunucu Tarafı</a></div><div class="nav-next"><a href="https://www.e-adys.com/web_tasarimi_programlama/3-4-buffers-tamponlar/" rel="next">3.4. Buffers (Tamponlar)</a></div></div>
+	</nav>
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+<aside id="secondary" class="widget-area col-sm-12 col-md-12 col-lg-4" role="complementary">
+	<section id="lsi_widget-2" class="widget widget_lsi_widget"><ul class="lsi-social-icons icon-set-lsi_widget-2" style="text-align: center"><li class="lsi-social-github"><a class="" rel="nofollow" title="Github" aria-label="Github" href="https://github.com/erdincuzun" target="_blank"><i class="lsicon lsicon-github"></i></a></li><li class="lsi-social-youtube"><a class="" rel="nofollow" title="YouTube" aria-label="YouTube" href="https://www.youtube.com/channel/UCdGlCf2RuXpeNFqWjVRmpXQ" target="_blank"><i class="lsicon lsicon-youtube"></i></a></li><li class="lsi-social-jsfiddle"><a class="" rel="nofollow" title="JSFiddle" aria-label="JSFiddle" href="https://jsfiddle.net/user/erdincuzun/fiddles/" target="_blank"><i class="lsicon lsicon-jsfiddle"></i></a></li><li class="lsi-social-linkedin"><a class="" rel="nofollow" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/erdinc-uzun-17ba7523/" target="_blank"><i class="lsicon lsicon-linkedin"></i></a></li><li class="lsi-social-fivehundredpx"><a class="" rel="nofollow" title="500px" aria-label="500px" href="https://www.researchgate.net/profile/Erdinc_Uzun" target="_blank"><i class="lsicon lsicon-fivehundredpx"></i></a></li></ul></section><section id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://www.e-adys.com/">
+    <label>
+        <input type="search" class="search-field form-control" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+    </label>
+    <input type="submit" class="search-submit btn btn-default" value="Search">
+</form>
+
+
+
+</section><section id="listcategorypostswidget-2" class="widget widget_listcategorypostswidget"><h3 class="widget-title">Konular</h3><ul id="lcp_instance_listcategorypostswidget-2"><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-node-js/" title="1. Node.js">1. Node.js</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-1-console-ekrani/" title="1.1. Console Ekranı">1.1. Console Ekranı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-2-node-paket-yoneticisi-npm/" title="1.2. Node Paket Yöneticisi (npm)">1.2. Node Paket Yöneticisi (npm)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-3-visual-studio-node-js-baglantisi/" title="1.3. Visual Studio &#8211; Node.js Bağlantısı">1.3. Visual Studio &#8211; Node.js Bağlantısı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-4-visual-studio-npm/" title="1.4. Visual Studio &#8211; Npm">1.4. Visual Studio &#8211; Npm</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/2-merhaba-node-js-dunyasi-http/" title="2. Merhaba Node.js Dünyası: http">2. Merhaba Node.js Dünyası: http</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-node-js-kavramlari-sunucu-tarafi/" title="3. Node.js Kavramları: Sunucu Tarafı">3. Node.js Kavramları: Sunucu Tarafı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-1-callback-kavrami/" title="3.1. Callback Kavramı">3.1. Callback Kavramı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-2-event-olay-dongusu/" title="3.2. Event (Olay) Döngüsü">3.2. Event (Olay) Döngüsü</a>  </li><li class="current"><a href="https://www.e-adys.com/web_tasarimi_programlama/3-3-eventemitter-sinifi/" title="3.3. EventEmitter Sınıfı">3.3. EventEmitter Sınıfı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-4-buffers-tamponlar/" title="3.4. Buffers (Tamponlar)">3.4. Buffers (Tamponlar)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-5-streams-akislar/" title="3.5. Streams (Akışlar)">3.5. Streams (Akışlar)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-6-dosya-sistemi/" title="3.6. Dosya Sistemi">3.6. Dosya Sistemi</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-7-global-nesneler/" title="3.7. Global Nesneler">3.7. Global Nesneler</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-8-yardimci-program-modulleri/" title="3.8. Yardımcı Program Modülleri">3.8. Yardımcı Program Modülleri</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-9-uygulamayi-olceklendirme/" title="3.9. Uygulamayı Ölçeklendirme">3.9. Uygulamayı Ölçeklendirme</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-node-js-web-module/" title="4. Node.js Web Module">4. Node.js Web Module</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-express-framework/" title="4.1. Express Framework">4.1. Express Framework</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-1-express-request-response/" title="4.1.1. Express &#8211; Request &#038; Response">4.1.1. Express &#8211; Request &#038; Response</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-1-1-express-request-nesnesinin-ozellikleri-ve-metotlari/" title="4.1.1.1. Express &#8211; Request Nesnesinin Özellikleri ve Metotları">4.1.1.1. Express &#8211; Request Nesnesinin Özellikleri ve Metotları</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-1-2-express-response-nesnesinin-ozellikleri-ve-metotlari/" title="4.1.1.2. Express &#8211; Response Nesnesinin Özellikleri ve Metotları">4.1.1.2. Express &#8211; Response Nesnesinin Özellikleri ve Metotları</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-2-temel-yonlendirme-routing/" title="4.1.2. Temel Yönlendirme (Routing)">4.1.2. Temel Yönlendirme (Routing)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-3-statik-dosyalari-sunma/" title="4.1.3. Statik Dosyaları Sunma">4.1.3. Statik Dosyaları Sunma</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-4-express-get-metodu/" title="4.1.4. Express &#8211; GET metodu">4.1.4. Express &#8211; GET metodu</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-5-express-post-metodu/" title="4.1.5. Express – POST metodu">4.1.5. Express – POST metodu</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-6-express-dosya-yukleme-file-upload/" title="4.1.6 -Express &#8211; Dosya Yükleme (File Upload)">4.1.6 -Express &#8211; Dosya Yükleme (File Upload)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-7-express-cookie-cerez-yonetimi/" title="4.1.7. Express- Cookie (Çerez) Yönetimi">4.1.7. Express- Cookie (Çerez) Yönetimi</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-2-restful-api/" title="4.2. RESTful API">4.2. RESTful API</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/5-packaging-paketleme-jxcore/" title="5. Packaging (Paketleme) &#8211; JXcore">5. Packaging (Paketleme) &#8211; JXcore</a>  </li></ul><a href="https://www.e-adys.com/category/web_tasarimi_programlama/node-js/" > </a></section><section id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"></div></section></aside><!-- #secondary -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div><!-- #content -->
+    	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+            <div class="site-info">
+                Copyright © 2017
+                <span class="sep"> | </span>
+                Erdinç Uzun
+            </div><!-- close .site-info -->
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<link rel='stylesheet' id='lsi-style-css'  href='https://www.e-adys.com/wp-content/plugins/lightweight-social-icons/css/style-min.css?ver=0.9' type='text/css' media='all' />
+<style id='lsi-style-inline-css' type='text/css'>
+
+			.icon-set-lsi_widget-2 a, 
+			.icon-set-lsi_widget-2 a:visited, 
+			.icon-set-lsi_widget-2 a:focus {
+				border-radius: 2px;
+				background: #1E72BD !important;
+				color: #FFFFFF !important;
+				font-size: 20px !important;
+			}
+			.icon-set-lsi_widget-2 a:hover {
+				background: #777777 !important;
+				color: #FFFFFF !important;
+			}
+</style>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=20170209'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/comment-reply.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+</body>
+</html>

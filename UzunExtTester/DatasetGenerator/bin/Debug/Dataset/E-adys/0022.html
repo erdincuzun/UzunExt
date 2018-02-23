@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6425640338410758",
+    enable_page_level_ads: true
+  });
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://www.e-adys.com/xmlrpc.php">
+<title>3.5. Streams (Akışlar) &#8211; Dr. Erdinç UZUN</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Dr. Erdinç UZUN &raquo; beslemesi" href="https://www.e-adys.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Dr. Erdinç UZUN &raquo; yorum beslemesi" href="https://www.e-adys.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.e-adys.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-dark-terminal-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/themes/dark-terminal/dark-terminal.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='default-icon-styles-css'  href='https://www.e-adys.com/wp-content/plugins/svg-vector-icon-plugin/public/../admin/css/wordpress-svg-icon-plugin-style.min.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-starter-bootstrap-css-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/css/bootstrap.min.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-starter-font-awesome-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/css/font-awesome.min.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-bootstrap-starter-style-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='socicon-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/socicon.css?ver=20170209' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=20170209' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome.min.css?ver=20170209' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://www.e-adys.com/wp-includes/css/dashicons.min.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-wp-material-icons-css'  href='https://fonts.googleapis.com/icon?family=Material+Icons&#038;ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-wp-parent-style-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-wp-child-style-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='material-design-color-scheme-css-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/css/color-schemes/navy_indigo.css?ver=4.9.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/www.e-adys.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"%s ile Kopyala, %s ile Yap\u0131\u015ft\u0131r","minimize":"Kodu Geni\u015fletmek \u0130\u00e7in T\u0131kla"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/html5.js?ver=3.7.0'></script>
+<![endif]-->
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/popper.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/bootstrap.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/theme-script.js?ver=4.9.1'></script>
+<link rel='https://api.w.org/' href='https://www.e-adys.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.e-adys.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.e-adys.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='3.4. Buffers (Tamponlar)' href='https://www.e-adys.com/web_tasarimi_programlama/3-4-buffers-tamponlar/' />
+<link rel='next' title='3.6. Dosya Sistemi' href='https://www.e-adys.com/web_tasarimi_programlama/3-6-dosya-sistemi/' />
+<meta name="generator" content="WordPress 4.9.1" />
+<link rel="canonical" href="https://www.e-adys.com/web_tasarimi_programlama/3-5-streams-akislar/" />
+<link rel='shortlink' href='https://www.e-adys.com/?p=608' />
+<link rel="alternate" type="application/json+oembed" href="https://www.e-adys.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-adys.com%2Fweb_tasarimi_programlama%2F3-5-streams-akislar%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.e-adys.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-adys.com%2Fweb_tasarimi_programlama%2F3-5-streams-akislar%2F&#038;format=xml" />
+    <style type="text/css">
+        #page-sub-header { background: #dd9933; }
+    </style>
+    		<style type="text/css" id="wp-custom-css">
+			h1.entry-title {
+    font-size: 28px;
+	  color:#3949ab;
+}
+
+#content.site-content {
+	padding-top: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+#masthead .navbar-brand a, #masthead .navbar-nav > li > a {
+    color: #ffffff;
+    font-weight: 600;
+    background: transparent;
+}
+		</style>
+	</head>
+
+<body class="post-template-default single single-post postid-608 single-format-standard">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    	<header id="masthead" class="site-header navbar-static-top" role="banner">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="navbar-brand">
+                                            <a class="website-title" href="https://www.e-adys.com/">Dr. Erdinç UZUN</a>
+                    
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end"><ul id="menu-ust-menu" class="navbar-nav"><li id="menu-item-13" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13"><a title="Anasayfa" href="https://www.e-adys.com/" class="nav-link">Anasayfa</a></li>
+<li id="menu-item-123" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a title="İletişim" href="https://www.e-adys.com/iletisim/" class="nav-link">İletişim</a></li>
+<li id="menu-item-149" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a title="Özgeçmiş" href="https://www.e-adys.com/ozgecmis/" class="nav-link">Özgeçmiş</a></li>
+<li id="menu-item-148" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a title="Yayınlar" href="https://www.e-adys.com/yayinlar/" class="nav-link">Yayınlar</a></li>
+<li id="menu-item-273" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a title="Arşiv" href="https://www.e-adys.com/arsiv/" class="nav-link">Arşiv</a></li>
+</ul></div>
+            </nav>
+        </div>
+	</header><!-- #masthead -->
+    	<div id="content" class="site-content">
+		<div class="container">
+			<div class="row">
+                
+	<section id="primary" class="content-area col-sm-12 col-md-12 col-lg-8">
+		<main id="main" class="site-main" role="main">
+
+		<article id="post-608" class="post-608 post type-post status-publish format-standard hentry category-node-js category-web_tasarimi_programlama">
+	<div class="post-thumbnail">
+			</div>
+	<header class="entry-header">
+		<h1 class="entry-title">3.5. Streams (Akışlar)</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p style="text-align: justify;">Streams, bir kaynaktaki verileri sürekli bir biçimde okumanıza veya bir hedefe veri yazmanıza izin veren nesnelerdir. Node.js&#8217;de dört akış türü vardır:<span id="more-608"></span></p>
+<ul>
+<li><strong>Okunabilir</strong> &#8211; Okuma işlemi için kullanılan stream.</li>
+<li><strong>Yazılabilir</strong> &#8211; Yazma işlemi için kullanılan stream.</li>
+<li><strong>Dubleks</strong> &#8211; Hem okuma hem de yazma işlemi için kullanılabilen stream.</li>
+<li><strong>Transform</strong> &#8211; Çıktının girdiye göre hesaplandığı dubleks stream tipi.</li>
+</ul>
+<p>Her stream türü bir EventEmitter örneğidir ve farklı zamanlarda farklı olaylar atar. Örneğin, yaygın olarak kullanılan bazı olaylar şunlardır &#8211;</p>
+<ul>
+<li>data &#8211; Okunacak veriler olduğunda bu etkinlik tetiklenir.</li>
+<li>end &#8211; Okunacak başka veri olmadığında bu olay tetiklenir.</li>
+<li>error &#8211; Veri alıyorken veya veri yazarken herhangi bir hata oluştuğunda bu olay tetiklenir.</li>
+<li>finish &#8211; Bu olay, tüm veriler temel alınan sisteme boşaltıldığında tetiklenir.</li>
+</ul>
+<p>Şimdi stream ile ilgili metotları bir bakalım.</p>
+<h2>Stream Okuma</h2>
+<p>Aşağıdaki gibi bir metin.txt dosyamız olsun.</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4c9ecee567730315" class="crayon-syntax crayon-theme-dark-terminal crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">INI</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+Merhaba Node.js Dunyasi
+Ornek bir text dosya.</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4c9ecee567730315-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ecee567730315-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4c9ecee567730315-1"><span class="crayon-i">Merhaba</span><span class="crayon-h"> </span><span class="crayon-i">Node</span><span class="crayon-sy">.</span><span class="crayon-i">js</span><span class="crayon-h"> </span><span class="crayon-i">Dunyasi</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ecee567730315-2"><span class="crayon-i">Ornek</span><span class="crayon-h"> </span><span class="crayon-i">bir</span><span class="crayon-h"> </span><span class="crayon-i">text</span><span class="crayon-h"> </span><span class="crayon-i">dosya</span><span class="crayon-sy">.</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0010 seconds] -->
+<p>Şimdi bir okuma işlemi yapalım.</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4c9ed04566293706" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+var fs = require("fs");
+var data = '';
+
+// Okuma icin bir stream olustur
+var readerStream = fs.createReadStream('input.txt');
+
+// utf8 olarak karakter encoding ayarla 
+readerStream.setEncoding('UTF8');
+
+// Stream olayini yönet --&gt; data, end, ve error
+readerStream.on('data', function(chunk) {
+   data += chunk;
+});
+
+//Stream olayı bitince olusan data'yi console'a yazdir  
+readerStream.on('end',function(){
+   console.log(data);
+});
+
+//hata olursa yazdir
+readerStream.on('error', function(err){
+   console.log(err.stack);
+});
+
+//Program sonu
+console.log("Program Bitti");</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-2">2</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-4">4</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-6">6</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-8">8</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-10">10</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-12">12</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-14">14</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-16">16</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-18">18</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-20">20</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-22">22</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-23">23</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-24">24</div><div class="crayon-num" data-line="crayon-5a396e4c9ed04566293706-25">25</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed04566293706-26">26</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-1"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">"fs"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-e ">data</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">''</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-3">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-4"><span class="crayon-c">// Okuma icin bir stream olustur</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-5"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">readerStream</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-sy">.</span><span class="crayon-e">createReadStream</span><span class="crayon-sy">(</span><span class="crayon-s">'input.txt'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-6">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-7"><span class="crayon-c">// utf8 olarak karakter encoding ayarla </span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-8"><span class="crayon-v">readerStream</span><span class="crayon-sy">.</span><span class="crayon-e">setEncoding</span><span class="crayon-sy">(</span><span class="crayon-s">'UTF8'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-9">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-10"><span class="crayon-c">// Stream olayini yönet --&gt; data, end, ve error</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-11"><span class="crayon-v">readerStream</span><span class="crayon-sy">.</span><span class="crayon-e">on</span><span class="crayon-sy">(</span><span class="crayon-s">'data'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-v">chunk</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-12"><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-v">data</span><span class="crayon-h"> </span><span class="crayon-o">+=</span><span class="crayon-h"> </span><span class="crayon-v">chunk</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-13"><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-14">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-15"><span class="crayon-c">//Stream olayı bitince olusan data'yi console'a yazdir&nbsp;&nbsp;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-16"><span class="crayon-v">readerStream</span><span class="crayon-sy">.</span><span class="crayon-e">on</span><span class="crayon-sy">(</span><span class="crayon-s">'end'</span><span class="crayon-sy">,</span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">{</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-17"><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-v">data</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-18"><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-19">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-20"><span class="crayon-c">//hata olursa yazdir</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-21"><span class="crayon-v">readerStream</span><span class="crayon-sy">.</span><span class="crayon-e">on</span><span class="crayon-sy">(</span><span class="crayon-s">'error'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-v">err</span><span class="crayon-sy">)</span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-22"><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-v">err</span><span class="crayon-sy">.</span><span class="crayon-v">stack</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-23"><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-24">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed04566293706-25"><span class="crayon-c">//Program sonu</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed04566293706-26"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">"Program Bitti"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0074 seconds] -->
+<p>Bir önceki çalıştırıldığında aşağıdaki gibi bir çıktı oluşur.</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4c9ed15966349688" class="crayon-syntax crayon-theme-dark-terminal crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">INI</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+Program bitti.
+Merhaba Node.js Dunyasi
+Ornek bir text dosya.</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4c9ed15966349688-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed15966349688-2">2</div><div class="crayon-num" data-line="crayon-5a396e4c9ed15966349688-3">3</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4c9ed15966349688-1"><span class="crayon-i">Program</span><span class="crayon-h"> </span><span class="crayon-i">bitti</span><span class="crayon-sy">.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed15966349688-2"><span class="crayon-i">Merhaba</span><span class="crayon-h"> </span><span class="crayon-i">Node</span><span class="crayon-sy">.</span><span class="crayon-i">js</span><span class="crayon-h"> </span><span class="crayon-i">Dunyasi</span></div><div class="crayon-line" id="crayon-5a396e4c9ed15966349688-3"><span class="crayon-i">Ornek</span><span class="crayon-h"> </span><span class="crayon-i">bir</span><span class="crayon-h"> </span><span class="crayon-i">text</span><span class="crayon-h"> </span><span class="crayon-i">dosya</span><span class="crayon-sy">.</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0011 seconds] -->
+<p></p>
+<p style="text-align: justify;">Asenkron bir çalışma olduğunu çıktıdan anlayabilirsiniz. readerStream.on(&#8216;data&#8217;&#8230; veriyi teker teker alıp data değişkeninde biriktirir.  readerStream.on(&#8216;end&#8217; olayı olduğunda sonuç console&#8217;a yazılır. Ancak bu kodlar asenkron çalıştığı için arka planda işlem olurken &#8220;Program bitti&#8221; çıktısı console ekranına ilk olarak yazar.</p>
+<h2>Stream Yazma</h2>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4c9ed24900231748" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+var fs = require("fs");
+var data = 'Merhaba Node.js';
+
+// yazilabilir bir stream olustur
+var writerStream = fs.createWriteStream('output.txt');
+
+// Veriyi utf8 formatinda yaz.
+writerStream.write(data,'UTF8');
+
+// Dosya sonunu isaretle
+writerStream.end();
+
+// Stream olaylarını yonet --&gt; finish ve error
+writerStream.on('finish', function() {
+    console.log("Yazma bitti.");
+});
+
+writerStream.on('error', function(err){
+   console.log(err.stack);
+});
+
+console.log("Program Bitti");</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-2">2</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-4">4</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-6">6</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-8">8</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-10">10</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-12">12</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-14">14</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-16">16</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-18">18</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-20">20</div><div class="crayon-num" data-line="crayon-5a396e4c9ed24900231748-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed24900231748-22">22</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-1"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">"fs"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-e ">data</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'Merhaba Node.js'</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-3">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-4"><span class="crayon-c">// yazilabilir bir stream olustur</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-5"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">writerStream</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-sy">.</span><span class="crayon-e">createWriteStream</span><span class="crayon-sy">(</span><span class="crayon-s">'output.txt'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-6">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-7"><span class="crayon-c">// Veriyi utf8 formatinda yaz.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-8"><span class="crayon-v">writerStream</span><span class="crayon-sy">.</span><span class="crayon-e">write</span><span class="crayon-sy">(</span><span class="crayon-v">data</span><span class="crayon-sy">,</span><span class="crayon-s">'UTF8'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-9">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-10"><span class="crayon-c">// Dosya sonunu isaretle</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-11"><span class="crayon-v">writerStream</span><span class="crayon-sy">.</span><span class="crayon-st">end</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-12">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-13"><span class="crayon-c">// Stream olaylarını yonet --&gt; finish ve error</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-14"><span class="crayon-v">writerStream</span><span class="crayon-sy">.</span><span class="crayon-e">on</span><span class="crayon-sy">(</span><span class="crayon-s">'finish'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-15"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">"Yazma bitti."</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-16"><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-17">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-18"><span class="crayon-v">writerStream</span><span class="crayon-sy">.</span><span class="crayon-e">on</span><span class="crayon-sy">(</span><span class="crayon-s">'error'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-v">err</span><span class="crayon-sy">)</span><span class="crayon-sy">{</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-19"><span class="crayon-h">&nbsp;&nbsp; </span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-v">err</span><span class="crayon-sy">.</span><span class="crayon-v">stack</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-20"><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed24900231748-21">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed24900231748-22"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">"Program Bitti"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0065 seconds] -->
+<p></p>
+<p style="text-align: justify;">Eşzamasız (Asenkron) yapı burada da geçerlidir. Yazma işlemi bittiğinde writerStream.on(&#8216;finish&#8217; olayının fonksiyonu çalışır. Eğer hata olursa writerStream.on(&#8216;error&#8217; olayının fonksiyonu çalışır. Console çıktısı:</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4c9ed32410729618" class="crayon-syntax crayon-theme-dark-terminal crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">INI</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+Program Bitti
+Yazma bitti.</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4c9ed32410729618-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed32410729618-2">2</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4c9ed32410729618-1"><span class="crayon-i">Program</span><span class="crayon-h"> </span><span class="crayon-i">Bitti</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed32410729618-2"><span class="crayon-i">Yazma</span><span class="crayon-h"> </span><span class="crayon-i">bitti</span><span class="crayon-sy">.</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0006 seconds] -->
+<p></p>
+<h2>Stream Piping</h2>
+<p style="text-align: justify;">Eşzamansız programlamanın en kötü tarafı işlemlerin birbirini beklemeden çalışmasıdır. Eğer birinci stream çıktısı diğer ikinci bir stream&#8217;in girdisi ise problem oluşabilir. İkinci stream çalışmaya kalkar ve birinci stream daha işini bitirmediyse problem büyüktür. İşte piping mekanizması sayesinde bir stream çıktısını başka bir stream girişi olarak sağlayabiliriz. Bu mekanizma akıştan veri alıp o akışın çıktısını başka bir akışa geçirmek için kullanılır.</p>
+<p></p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5a396e4c9ed40561742383" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Düz Koda Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Kodu Genişlet"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+var fs = require("fs");
+
+// Bir okuma stream olustur
+var readerStream = fs.createReadStream('input.txt');
+
+// Yazilabilir bir stream olustur
+var writerStream = fs.createWriteStream('output.txt');
+
+// Okuma ve yazma islemlerini bagla
+// input.txt oku ve verileri output.txt'a yaz
+readerStream.pipe(writerStream);
+
+console.log("Program Bitti");</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed40561742383-2">2</div><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed40561742383-4">4</div><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed40561742383-6">6</div><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed40561742383-8">8</div><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed40561742383-10">10</div><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5a396e4c9ed40561742383-12">12</div><div class="crayon-num" data-line="crayon-5a396e4c9ed40561742383-13">13</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-1"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-e">require</span><span class="crayon-sy">(</span><span class="crayon-s">"fs"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed40561742383-2">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-3"><span class="crayon-c">// Bir okuma stream olustur</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed40561742383-4"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">readerStream</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-sy">.</span><span class="crayon-e">createReadStream</span><span class="crayon-sy">(</span><span class="crayon-s">'input.txt'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-5">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed40561742383-6"><span class="crayon-c">// Yazilabilir bir stream olustur</span></div><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-7"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">writerStream</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">fs</span><span class="crayon-sy">.</span><span class="crayon-e">createWriteStream</span><span class="crayon-sy">(</span><span class="crayon-s">'output.txt'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed40561742383-8">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-9"><span class="crayon-c">// Okuma ve yazma islemlerini bagla</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed40561742383-10"><span class="crayon-c">// input.txt oku ve verileri output.txt'a yaz</span></div><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-11"><span class="crayon-v">readerStream</span><span class="crayon-sy">.</span><span class="crayon-e">pipe</span><span class="crayon-sy">(</span><span class="crayon-v">writerStream</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5a396e4c9ed40561742383-12">&nbsp;</div><div class="crayon-line" id="crayon-5a396e4c9ed40561742383-13"><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">"Program Bitti"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0037 seconds] -->
+<p>&nbsp;</p>
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Yazı dolaşımı</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://www.e-adys.com/web_tasarimi_programlama/3-4-buffers-tamponlar/" rel="prev">3.4. Buffers (Tamponlar)</a></div><div class="nav-next"><a href="https://www.e-adys.com/web_tasarimi_programlama/3-6-dosya-sistemi/" rel="next">3.6. Dosya Sistemi</a></div></div>
+	</nav>
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+
+<aside id="secondary" class="widget-area col-sm-12 col-md-12 col-lg-4" role="complementary">
+	<section id="lsi_widget-2" class="widget widget_lsi_widget"><ul class="lsi-social-icons icon-set-lsi_widget-2" style="text-align: center"><li class="lsi-social-github"><a class="" rel="nofollow" title="Github" aria-label="Github" href="https://github.com/erdincuzun" target="_blank"><i class="lsicon lsicon-github"></i></a></li><li class="lsi-social-youtube"><a class="" rel="nofollow" title="YouTube" aria-label="YouTube" href="https://www.youtube.com/channel/UCdGlCf2RuXpeNFqWjVRmpXQ" target="_blank"><i class="lsicon lsicon-youtube"></i></a></li><li class="lsi-social-jsfiddle"><a class="" rel="nofollow" title="JSFiddle" aria-label="JSFiddle" href="https://jsfiddle.net/user/erdincuzun/fiddles/" target="_blank"><i class="lsicon lsicon-jsfiddle"></i></a></li><li class="lsi-social-linkedin"><a class="" rel="nofollow" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/erdinc-uzun-17ba7523/" target="_blank"><i class="lsicon lsicon-linkedin"></i></a></li><li class="lsi-social-fivehundredpx"><a class="" rel="nofollow" title="500px" aria-label="500px" href="https://www.researchgate.net/profile/Erdinc_Uzun" target="_blank"><i class="lsicon lsicon-fivehundredpx"></i></a></li></ul></section><section id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://www.e-adys.com/">
+    <label>
+        <input type="search" class="search-field form-control" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+    </label>
+    <input type="submit" class="search-submit btn btn-default" value="Search">
+</form>
+
+
+
+</section><section id="listcategorypostswidget-2" class="widget widget_listcategorypostswidget"><h3 class="widget-title">Konular</h3><ul id="lcp_instance_listcategorypostswidget-2"><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-node-js/" title="1. Node.js">1. Node.js</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-1-console-ekrani/" title="1.1. Console Ekranı">1.1. Console Ekranı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-2-node-paket-yoneticisi-npm/" title="1.2. Node Paket Yöneticisi (npm)">1.2. Node Paket Yöneticisi (npm)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-3-visual-studio-node-js-baglantisi/" title="1.3. Visual Studio &#8211; Node.js Bağlantısı">1.3. Visual Studio &#8211; Node.js Bağlantısı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/1-4-visual-studio-npm/" title="1.4. Visual Studio &#8211; Npm">1.4. Visual Studio &#8211; Npm</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/2-merhaba-node-js-dunyasi-http/" title="2. Merhaba Node.js Dünyası: http">2. Merhaba Node.js Dünyası: http</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-node-js-kavramlari-sunucu-tarafi/" title="3. Node.js Kavramları: Sunucu Tarafı">3. Node.js Kavramları: Sunucu Tarafı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-1-callback-kavrami/" title="3.1. Callback Kavramı">3.1. Callback Kavramı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-2-event-olay-dongusu/" title="3.2. Event (Olay) Döngüsü">3.2. Event (Olay) Döngüsü</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-3-eventemitter-sinifi/" title="3.3. EventEmitter Sınıfı">3.3. EventEmitter Sınıfı</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-4-buffers-tamponlar/" title="3.4. Buffers (Tamponlar)">3.4. Buffers (Tamponlar)</a>  </li><li class="current"><a href="https://www.e-adys.com/web_tasarimi_programlama/3-5-streams-akislar/" title="3.5. Streams (Akışlar)">3.5. Streams (Akışlar)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-6-dosya-sistemi/" title="3.6. Dosya Sistemi">3.6. Dosya Sistemi</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-7-global-nesneler/" title="3.7. Global Nesneler">3.7. Global Nesneler</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-8-yardimci-program-modulleri/" title="3.8. Yardımcı Program Modülleri">3.8. Yardımcı Program Modülleri</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/3-9-uygulamayi-olceklendirme/" title="3.9. Uygulamayı Ölçeklendirme">3.9. Uygulamayı Ölçeklendirme</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-node-js-web-module/" title="4. Node.js Web Module">4. Node.js Web Module</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-express-framework/" title="4.1. Express Framework">4.1. Express Framework</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-1-express-request-response/" title="4.1.1. Express &#8211; Request &#038; Response">4.1.1. Express &#8211; Request &#038; Response</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-1-1-express-request-nesnesinin-ozellikleri-ve-metotlari/" title="4.1.1.1. Express &#8211; Request Nesnesinin Özellikleri ve Metotları">4.1.1.1. Express &#8211; Request Nesnesinin Özellikleri ve Metotları</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-1-2-express-response-nesnesinin-ozellikleri-ve-metotlari/" title="4.1.1.2. Express &#8211; Response Nesnesinin Özellikleri ve Metotları">4.1.1.2. Express &#8211; Response Nesnesinin Özellikleri ve Metotları</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-2-temel-yonlendirme-routing/" title="4.1.2. Temel Yönlendirme (Routing)">4.1.2. Temel Yönlendirme (Routing)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-3-statik-dosyalari-sunma/" title="4.1.3. Statik Dosyaları Sunma">4.1.3. Statik Dosyaları Sunma</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-4-express-get-metodu/" title="4.1.4. Express &#8211; GET metodu">4.1.4. Express &#8211; GET metodu</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-5-express-post-metodu/" title="4.1.5. Express – POST metodu">4.1.5. Express – POST metodu</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-6-express-dosya-yukleme-file-upload/" title="4.1.6 -Express &#8211; Dosya Yükleme (File Upload)">4.1.6 -Express &#8211; Dosya Yükleme (File Upload)</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-1-7-express-cookie-cerez-yonetimi/" title="4.1.7. Express- Cookie (Çerez) Yönetimi">4.1.7. Express- Cookie (Çerez) Yönetimi</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/4-2-restful-api/" title="4.2. RESTful API">4.2. RESTful API</a>  </li><li ><a href="https://www.e-adys.com/web_tasarimi_programlama/5-packaging-paketleme-jxcore/" title="5. Packaging (Paketleme) &#8211; JXcore">5. Packaging (Paketleme) &#8211; JXcore</a>  </li></ul><a href="https://www.e-adys.com/category/web_tasarimi_programlama/node-js/" > </a></section><section id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"></div></section></aside><!-- #secondary -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div><!-- #content -->
+    	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+            <div class="site-info">
+                Copyright © 2017
+                <span class="sep"> | </span>
+                Erdinç Uzun
+            </div><!-- close .site-info -->
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<link rel='stylesheet' id='lsi-style-css'  href='https://www.e-adys.com/wp-content/plugins/lightweight-social-icons/css/style-min.css?ver=0.9' type='text/css' media='all' />
+<style id='lsi-style-inline-css' type='text/css'>
+
+			.icon-set-lsi_widget-2 a, 
+			.icon-set-lsi_widget-2 a:visited, 
+			.icon-set-lsi_widget-2 a:focus {
+				border-radius: 2px;
+				background: #1E72BD !important;
+				color: #FFFFFF !important;
+				font-size: 20px !important;
+			}
+			.icon-set-lsi_widget-2 a:hover {
+				background: #777777 !important;
+				color: #FFFFFF !important;
+			}
+</style>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=20170209'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/comment-reply.min.js?ver=4.9.1'></script>
+<script type='text/javascript' src='https://www.e-adys.com/wp-includes/js/wp-embed.min.js?ver=4.9.1'></script>
+</body>
+</html>
