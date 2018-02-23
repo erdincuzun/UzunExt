@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TXT_Source.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="tr-TR"&gt;
+&lt;head&gt;
+&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6425640338410758",
+    enable_page_level_ads: true
+  });
+&lt;/script&gt;
+&lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-19264751-2"&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-19264751-2');
+&lt;/script&gt;
+
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;link rel="profile" href="http://gmpg.org/xfn/11"&gt;
+&lt;link rel="pingback" href="https://www.e-adys.com/xmlrpc.php" /&gt;
+
+&lt;title&gt;1. Object-Based Flow Charts (obfc.js) &amp;#8211; Dr. Erdinç UZUN&lt;/title&gt;
+&lt;link rel='dns-prefetch' href='//fonts.googleapis.com' /&gt;
+&lt;link rel='dns-prefetch' href='//s.w.org' /&gt;
+&lt;link rel="alternate" type="application/rss+xml" title="Dr. Erdinç UZUN &amp;raquo; beslemesi" href="https://www.e-adys.com/feed/" /&gt;
+&lt;link rel="alternate" type="application/rss+xml" title="Dr. Erdinç UZUN &amp;raquo; yorum beslemesi" href="https://www.e-adys.com/comments/feed/" /&gt;
+&lt;link rel='stylesheet' id='crayon-theme-classic-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=_2.7.2_beta'  media='all' /&gt;
+&lt;link rel='stylesheet' id='crayon-font-monaco-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta'  media='all' /&gt;
+&lt;link rel='stylesheet' id='default-icon-styles-css'  href='https://www.e-adys.com/wp-content/plugins/svg-vector-icon-plugin/public/../admin/css/wordpress-svg-icon-plugin-style.min.css?ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='wp-bootstrap-starter-bootstrap-css-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/css/bootstrap.min.css?ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='wp-bootstrap-starter-font-awesome-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/css/font-awesome.min.css?ver=4.1.0'  media='all' /&gt;
+&lt;link rel='stylesheet' id='wp-bootstrap-starter-style-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/style.css?ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='socicon-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/socicon.css?ver=20170209'  media='all' /&gt;
+&lt;link rel='stylesheet' id='genericons-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=20170209'  media='all' /&gt;
+&lt;link rel='stylesheet' id='fontawesome-css'  href='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome.min.css?ver=20170209'  media='all' /&gt;
+&lt;link rel='stylesheet' id='dashicons-css'  href='https://www.e-adys.com/wp-includes/css/dashicons.min.css?ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='material-design-wp-material-icons-css'  href='https://fonts.googleapis.com/icon?family=Material+Icons&amp;#038;ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='material-design-wp-parent-style-css'  href='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/style.css?ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='material-design-wp-child-style-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/style.css?ver=4.9.3'  media='all' /&gt;
+&lt;link rel='stylesheet' id='material-design-color-scheme-css-css'  href='https://www.e-adys.com/wp-content/themes/material-design-wp/css/color-schemes/navy_indigo.css?ver=4.9.3'  media='all' /&gt;
+&lt;script  src='https://www.e-adys.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'&gt;&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'&gt;&lt;/script&gt;
+&lt;!--[if lt IE 9]&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/html5.js?ver=3.7.0'&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/popper.min.js?ver=4.9.3'&gt;&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/bootstrap.min.js?ver=4.9.3'&gt;&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/theme-script.js?ver=4.9.3'&gt;&lt;/script&gt;
+&lt;link rel='https://api.w.org/' href='https://www.e-adys.com/wp-json/' /&gt;
+&lt;link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.e-adys.com/xmlrpc.php?rsd" /&gt;
+&lt;link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.e-adys.com/wp-includes/wlwmanifest.xml" /&gt; 
+&lt;link rel='prev' title='2. obfc.js: Example' href='https://www.e-adys.com/obfc-js/obfc-js-example/' /&gt;
+&lt;link rel='next' title='Algoritmanın Önemi ve Programlama Diline Aktarılması' href='https://www.e-adys.com/veri_yapilari/algoritmanin-onemi-ve-programlama-diline-aktarilmasi/' /&gt;
+&lt;meta name="generator" content="WordPress 4.9.3" /&gt;
+&lt;link rel="canonical" href="https://www.e-adys.com/obfc-js/object-based-flow-charts-obfc-js/" /&gt;
+&lt;link rel='shortlink' href='https://www.e-adys.com/?p=39' /&gt;
+&lt;link rel="alternate" type="application/json+oembed" href="https://www.e-adys.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-adys.com%2Fobfc-js%2Fobject-based-flow-charts-obfc-js%2F" /&gt;
+&lt;link rel="alternate" type="text/xml+oembed" href="https://www.e-adys.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-adys.com%2Fobfc-js%2Fobject-based-flow-charts-obfc-js%2F&amp;#038;format=xml" /&gt;
+    &lt;style type="text/css"&gt;
+        #page-sub-header { background: #dd9933; }
+    &lt;/style&gt;
+    		&lt;style type="text/css" id="wp-custom-css"&gt;
+			h1.entry-title {
+    font-size: 28px;
+	  color:#3949ab;
+}
+
+#content.site-content {
+	padding-top: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+#masthead .navbar-brand a, #masthead .navbar-nav &gt; li &gt; a {
+    color: #ffffff;
+    font-weight: 600;
+    background: transparent;
+}
+		&lt;/style&gt;
+	&lt;/head&gt;
+
+&lt;body class="post-template-default single single-post postid-39 single-format-standard"&gt;
+&lt;div id="page" class="site"&gt;
+	&lt;a class="skip-link screen-reader-text" href="#content"&gt;Skip to content&lt;/a&gt;
+    	&lt;header id="masthead" class="site-header navbar-static-top" role="banner"&gt;
+        &lt;div class="container"&gt;
+            &lt;nav class="navbar navbar-expand-lg navbar-light"&gt;
+
+                &lt;div class="navbar-brand"&gt;
+                                            &lt;a class="website-title" href="https://www.e-adys.com/"&gt;Dr. Erdinç UZUN&lt;/a&gt;
+                    
+                &lt;/div&gt;
+                &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation"&gt;
+                    &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;div class="collapse navbar-collapse justify-content-end"&gt;&lt;ul id="menu-ust-menu" class="navbar-nav"&gt;&lt;li id="menu-item-13" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-13"&gt;&lt;a title="Anasayfa" href="https://www.e-adys.com/" class="nav-link"&gt;Anasayfa&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-123" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-123"&gt;&lt;a title="İletişim" href="https://www.e-adys.com/iletisim/" class="nav-link"&gt;İletişim&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-149" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-149"&gt;&lt;a title="Özgeçmiş" href="https://www.e-adys.com/ozgecmis/" class="nav-link"&gt;Özgeçmiş&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-148" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-148"&gt;&lt;a title="Yayınlar" href="https://www.e-adys.com/yayinlar/" class="nav-link"&gt;Yayınlar&lt;/a&gt;&lt;/li&gt;
+&lt;li id="menu-item-273" class="nav-item menu-item menu-item-type-post_type menu-item-object-page menu-item-273"&gt;&lt;a title="Arşiv" href="https://www.e-adys.com/arsiv/" class="nav-link"&gt;Arşiv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+            &lt;/nav&gt;
+        &lt;/div&gt;
+	&lt;/header&gt;&lt;!-- #masthead --&gt;
+    	&lt;div id="content" class="site-content"&gt;
+		&lt;div class="container"&gt;
+			&lt;div class="row"&gt;
+                
+	&lt;section id="primary" class="content-area col-sm-12 col-md-12 col-lg-8"&gt;
+		&lt;main id="main" class="site-main" role="main"&gt;
+
+		&lt;article id="post-39" class="post-39 post type-post status-publish format-standard hentry category-obfc-js"&gt;
+	&lt;div class="post-thumbnail"&gt;
+			&lt;/div&gt;
+	&lt;header class="entry-header"&gt;
+		&lt;h1 class="entry-title"&gt;1. Object-Based Flow Charts (obfc.js)&lt;/h1&gt;	&lt;/header&gt;&lt;!-- .entry-header --&gt;
+
+	&lt;div class="entry-content"&gt;
+		&lt;p style="text-align: justify;"&gt;&lt;strong style="text-align: justify;"&gt;obfc.js&lt;/strong&gt;&lt;span style="text-align: justify;"&gt; is an object-based JavaScript Library for drawing SVG flow charts acroos modern web browsers. It makes easily to construct objects, links and connections. Moreover, it dispatches a click event when an object or a line is clicked and descriptions can be added for all clicks. &lt;/span&gt;&lt;br /&gt;
+&lt;span id="more-39"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Click for download files from&lt;strong&gt; &lt;a href="https://github.com/erdincuzun/obfc.js" target="_blank" rel="noopener"&gt;GitHub&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul style="list-style-type: circle;"&gt;
+&lt;li style="text-align: justify;"&gt;&lt;a href="#GeneralInf"&gt;General Information&lt;/a&gt;&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;a href="/obfc-js/obfc-js-example" target="_blank" rel="noopener"&gt;An Example&lt;/a&gt;&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;a href="/obfc-js/properties-of-a-svg-shape" target="_blank" rel="noopener"&gt;Properties of a SVG shape&lt;/a&gt;&lt;/li&gt;
+&lt;li id="GeneralInf" style="text-align: justify;"&gt;&lt;a href="/obfc-js/obfc-js-all-svg-shapes" target="_blank" rel="noopener"&gt;All SVG Shapes&lt;/a&gt;&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;a href="/obfc-js/obfc-js-creating-lines-free-draw-and-free-write-function" target="_blank" rel="noopener"&gt;Creating Lines&lt;/a&gt;&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;a href="/obfc-js/obfc-js-collision-detection-editmode-and-console-log" target="_blank" rel="noopener"&gt;Collision Detection, Editmode and Console.log&lt;/a&gt;&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;a href="/obfc-js/obfc-js-free-draw-and-free-write-functions" target="_blank" rel="noopener"&gt;&lt;em&gt;free_draw&lt;/em&gt; and &lt;em&gt;free_write&lt;/em&gt; functions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;obfc.js &lt;/strong&gt;has 24 different SVG shapes that can be divided into four groups:&lt;/p&gt;
+&lt;ul style="list-style-type: circle;"&gt;
+&lt;li style="text-align: justify;"&gt;&lt;strong&gt;Operation Symbols:&lt;/strong&gt; Process, Predefined Process, Alternate Process, Delay, Preparation, Manual Operation&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;strong&gt; Branching and Control of Flow Symbols:&lt;/strong&gt; Terminal, Decision, Connector (Inspection), Off-Page Connector, OR, Summing Junction&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;strong&gt;Input and Output Symbols:&lt;/strong&gt; Data, Document, Multi &amp;#8211; Document, Display, Manual Input, Card, Punched Tape&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;strong&gt;File and Information Storage Symbols:&lt;/strong&gt; Stored Data, Magnetic Disk, Direct Access &amp;#8211; Storage, Internal Storage, Sequential Access Storage &amp;#8211; Magnetic Tape&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;To use obfc.js the following:&lt;/p&gt;
+		&lt;div id="crayon-5a907cf173d89966615441" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover disable-anim" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;"&gt;
+		
+			&lt;div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-title"&gt;&lt;/span&gt;
+			&lt;div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-mixed-highlight" title="Karışık Diller içerir"&gt;&lt;/span&gt;&lt;div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-plain-button" title="Düz Koda Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-expand-button" title="Kodu Genişlet"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-copy-button" title="Copy"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="crayon-language"&gt;JavaScript&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+			&lt;div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"&gt;&lt;/div&gt;
+			&lt;div class="crayon-plain-wrap"&gt;&lt;textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;"&gt;
+&amp;lt;script src="obfc.min.js"&amp;gt;&amp;lt;/script&amp;gt;&lt;/textarea&gt;&lt;/div&gt;
+			&lt;div class="crayon-main" style=""&gt;
+				&lt;table class="crayon-table"&gt;
+					&lt;tr class="crayon-row"&gt;
+				&lt;td class="crayon-nums " data-settings="show"&gt;
+					&lt;div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173d89966615441-1"&gt;1&lt;/div&gt;&lt;/div&gt;
+				&lt;/td&gt;
+						&lt;td class="crayon-code"&gt;&lt;div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"&gt;&lt;div class="crayon-line" id="crayon-5a907cf173d89966615441-1"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;script &lt;/span&gt;&lt;span class="crayon-e "&gt;src&lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-s"&gt;"obfc.min.js"&lt;/span&gt;&lt;span class="crayon-o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="crayon-ta"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;p&gt;and then add svg element to body of a web page.&lt;/p&gt;
+		&lt;div id="crayon-5a907cf173da5440798500" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover disable-anim" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;"&gt;
+		
+			&lt;div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-title"&gt;&lt;/span&gt;
+			&lt;div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-plain-button" title="Düz Koda Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-expand-button" title="Kodu Genişlet"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-copy-button" title="Copy"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="crayon-language"&gt;JavaScript&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+			&lt;div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"&gt;&lt;/div&gt;
+			&lt;div class="crayon-plain-wrap"&gt;&lt;textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;"&gt;
+&amp;lt;svg id="demo" width="600" height="700"&amp;gt;
+&amp;lt;/svg&amp;gt;&lt;/textarea&gt;&lt;/div&gt;
+			&lt;div class="crayon-main" style=""&gt;
+				&lt;table class="crayon-table"&gt;
+					&lt;tr class="crayon-row"&gt;
+				&lt;td class="crayon-nums " data-settings="show"&gt;
+					&lt;div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173da5440798500-1"&gt;1&lt;/div&gt;&lt;div class="crayon-num crayon-striped-num" data-line="crayon-5a907cf173da5440798500-2"&gt;2&lt;/div&gt;&lt;/div&gt;
+				&lt;/td&gt;
+						&lt;td class="crayon-code"&gt;&lt;div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"&gt;&lt;div class="crayon-line" id="crayon-5a907cf173da5440798500-1"&gt;&lt;span class="crayon-o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="crayon-e"&gt;svg &lt;/span&gt;&lt;span class="crayon-e "&gt;id&lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-s"&gt;"demo"&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e "&gt;width&lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-s"&gt;"600"&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e "&gt;height&lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-s"&gt;"700"&lt;/span&gt;&lt;span class="crayon-o"&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line crayon-striped-line" id="crayon-5a907cf173da5440798500-2"&gt;&lt;span class="crayon-o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="crayon-o"&gt;/&lt;/span&gt;&lt;span class="crayon-v"&gt;svg&lt;/span&gt;&lt;span class="crayon-o"&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;p&gt;and then connect library to the id of the SVG element.&lt;/p&gt;
+		&lt;div id="crayon-5a907cf173db6793568178" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover disable-anim" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;"&gt;
+		
+			&lt;div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-title"&gt;&lt;/span&gt;
+			&lt;div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-mixed-highlight" title="Karışık Diller içerir"&gt;&lt;/span&gt;&lt;div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-plain-button" title="Düz Koda Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-expand-button" title="Kodu Genişlet"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-copy-button" title="Copy"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="crayon-language"&gt;JavaScript&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+			&lt;div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"&gt;&lt;/div&gt;
+			&lt;div class="crayon-plain-wrap"&gt;&lt;textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;"&gt;
+&amp;lt;script&amp;gt;
+prepare_SVG("demo");
+&amp;lt;/script&amp;gt;&lt;/textarea&gt;&lt;/div&gt;
+			&lt;div class="crayon-main" style=""&gt;
+				&lt;table class="crayon-table"&gt;
+					&lt;tr class="crayon-row"&gt;
+				&lt;td class="crayon-nums " data-settings="show"&gt;
+					&lt;div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173db6793568178-1"&gt;1&lt;/div&gt;&lt;div class="crayon-num crayon-striped-num" data-line="crayon-5a907cf173db6793568178-2"&gt;2&lt;/div&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173db6793568178-3"&gt;3&lt;/div&gt;&lt;/div&gt;
+				&lt;/td&gt;
+						&lt;td class="crayon-code"&gt;&lt;div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"&gt;&lt;div class="crayon-line" id="crayon-5a907cf173db6793568178-1"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line crayon-striped-line" id="crayon-5a907cf173db6793568178-2"&gt;&lt;span class="crayon-e"&gt;prepare_SVG&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-s"&gt;"demo"&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line" id="crayon-5a907cf173db6793568178-3"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h2&gt;Creating SVG Shapes&lt;/h2&gt;
+&lt;p&gt;To draw objects, &lt;em&gt;add_theObject&lt;/em&gt; function can be used for the given SVG element.&lt;/p&gt;
+		&lt;div id="crayon-5a907cf173dc4948566317" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover disable-anim" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;"&gt;
+		
+			&lt;div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-title"&gt;&lt;/span&gt;
+			&lt;div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-mixed-highlight" title="Karışık Diller içerir"&gt;&lt;/span&gt;&lt;div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-plain-button" title="Düz Koda Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-expand-button" title="Kodu Genişlet"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-copy-button" title="Copy"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="crayon-language"&gt;JavaScript&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+			&lt;div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"&gt;&lt;/div&gt;
+			&lt;div class="crayon-plain-wrap"&gt;&lt;textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;"&gt;
+&amp;lt;script&amp;gt;
+var object1 = add_theObject(new Terminal(300, 50, 1, "Hello obfc.js", 20, "&amp;lt;h3&amp;gt;Description in HTML format&amp;lt;/h3&amp;gt;"));
+var object2 = add_theObject(new Process(300, 150, 1, ["Line 1", "Line 2"], 10));
+&amp;lt;/script&amp;gt;&lt;/textarea&gt;&lt;/div&gt;
+			&lt;div class="crayon-main" style=""&gt;
+				&lt;table class="crayon-table"&gt;
+					&lt;tr class="crayon-row"&gt;
+				&lt;td class="crayon-nums " data-settings="show"&gt;
+					&lt;div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173dc4948566317-1"&gt;1&lt;/div&gt;&lt;div class="crayon-num crayon-striped-num" data-line="crayon-5a907cf173dc4948566317-2"&gt;2&lt;/div&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173dc4948566317-3"&gt;3&lt;/div&gt;&lt;div class="crayon-num crayon-striped-num" data-line="crayon-5a907cf173dc4948566317-4"&gt;4&lt;/div&gt;&lt;/div&gt;
+				&lt;/td&gt;
+						&lt;td class="crayon-code"&gt;&lt;div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"&gt;&lt;div class="crayon-line" id="crayon-5a907cf173dc4948566317-1"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line crayon-striped-line" id="crayon-5a907cf173dc4948566317-2"&gt;&lt;span class="crayon-t"&gt;var&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-v"&gt;object1&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e"&gt;add_theObject&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-r"&gt;new&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e"&gt;Terminal&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-cn"&gt;300&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;50&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;1&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-s"&gt;"Hello obfc.js"&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;20&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-s"&gt;"&amp;lt;h3&amp;gt;Description in HTML format&amp;lt;/h3&amp;gt;"&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line" id="crayon-5a907cf173dc4948566317-3"&gt;&lt;span class="crayon-t"&gt;var&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-v"&gt;object2&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e"&gt;add_theObject&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-r"&gt;new&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e"&gt;Process&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-cn"&gt;300&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;150&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;1&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-sy"&gt;[&lt;/span&gt;&lt;span class="crayon-s"&gt;"Line 1"&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-s"&gt;"Line 2"&lt;/span&gt;&lt;span class="crayon-sy"&gt;]&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;10&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line crayon-striped-line" id="crayon-5a907cf173dc4948566317-4"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;em&gt;add_theObject&lt;/em&gt; is a function that adds the object into a given SVG element and returns this object. This returned object is used for drawing lines between two objects. There are 24 different SVG objects in obfc.js. 22 of them contain 9 parameters for creating an object. First two parameters are required, others are optimal.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;  &lt;em&gt; Object_Name(_middle_x, _middle_y, _size, _text, _text_size, _description, _fill_color, _stroke_color, _text_color);&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul style="list-style-type: circle;"&gt;
+&lt;li style="text-align: justify;"&gt;_middle_x and middle_y: centre of the object. (Required)&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;_size: For example, default size of a process object width is 125 and height is 50. _size value is multiplied by these values.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;_text and _text_size: Text is written in the center of an object. This parameter can be defined string value or array[&amp;#8220;&amp;#8221;, &amp;#8220;&amp;#8221;&amp;#8230;]. If your text is too long, you can use array for creating lines.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;_description: These value can be coded in HTML format. These value is displayed in a HTML element that contains &amp;#8220;desc&amp;#8221; id after clicking an object or a line.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;_fill_color: Default value is white. But, the object color can be determined with this parameter.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;_stroke_color: Default value is black.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;_text_color: Default value is black.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p style="text-align: justify;"&gt;2 of them (OR and  SummingJunction) contain 7 parameter. These objects are not included parameters of _text and _text_size.&lt;/p&gt;
+&lt;p&gt;                &lt;em&gt;Object_Name(_middle_x, _middle_y, _size, _description, _fill_color, _stroke_color, _text_color);&lt;/em&gt;&lt;/p&gt;
+&lt;h2 style="text-align: justify;"&gt;Creating Lines Between Objects&lt;/h2&gt;
+&lt;p style="text-align: justify;"&gt;After creating all objects, objects can be linked by using &lt;em&gt;draw_theLine&lt;/em&gt; function.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+		&lt;div id="crayon-5a907cf173dd6809048786" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover disable-anim" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;"&gt;
+		
+			&lt;div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-title"&gt;&lt;/span&gt;
+			&lt;div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"&gt;&lt;span class="crayon-mixed-highlight" title="Karışık Diller içerir"&gt;&lt;/span&gt;&lt;div class="crayon-button crayon-nums-button" title="Satır Numaralarına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-plain-button" title="Düz Koda Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-wrap-button" title="Satır Sarımına Geç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-expand-button" title="Kodu Genişlet"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-copy-button" title="Copy"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="crayon-button crayon-popup-button" title="Kodu Yeni Pencerede Aç"&gt;&lt;div class="crayon-button-icon"&gt;&lt;/div&gt;&lt;/div&gt;&lt;span class="crayon-language"&gt;JavaScript&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;
+			&lt;div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"&gt;&lt;/div&gt;
+			&lt;div class="crayon-plain-wrap"&gt;&lt;textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;"&gt;
+&amp;lt;script&amp;gt;
+var o_line1 = draw_theLine(new Line(object1, object2, 1, 0, "Text", 12, "&amp;lt;b&amp;gt;Description in HTML format&amp;lt;/b&amp;gt;"));
+&amp;lt;/script&amp;gt;&lt;/textarea&gt;&lt;/div&gt;
+			&lt;div class="crayon-main" style=""&gt;
+				&lt;table class="crayon-table"&gt;
+					&lt;tr class="crayon-row"&gt;
+				&lt;td class="crayon-nums " data-settings="show"&gt;
+					&lt;div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173dd6809048786-1"&gt;1&lt;/div&gt;&lt;div class="crayon-num crayon-striped-num" data-line="crayon-5a907cf173dd6809048786-2"&gt;2&lt;/div&gt;&lt;div class="crayon-num" data-line="crayon-5a907cf173dd6809048786-3"&gt;3&lt;/div&gt;&lt;/div&gt;
+				&lt;/td&gt;
+						&lt;td class="crayon-code"&gt;&lt;div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"&gt;&lt;div class="crayon-line" id="crayon-5a907cf173dd6809048786-1"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line crayon-striped-line" id="crayon-5a907cf173dd6809048786-2"&gt;&lt;span class="crayon-t"&gt;var&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-v"&gt;o_line1&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-o"&gt;=&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e"&gt;draw_theLine&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-r"&gt;new&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-e"&gt;Line&lt;/span&gt;&lt;span class="crayon-sy"&gt;(&lt;/span&gt;&lt;span class="crayon-v"&gt;object1&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-v"&gt;object2&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;1&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;0&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-s"&gt;"Text"&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-cn"&gt;12&lt;/span&gt;&lt;span class="crayon-sy"&gt;,&lt;/span&gt;&lt;span class="crayon-h"&gt; &lt;/span&gt;&lt;span class="crayon-s"&gt;"&amp;lt;b&amp;gt;Description in HTML format&amp;lt;/b&amp;gt;"&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;)&lt;/span&gt;&lt;span class="crayon-sy"&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div class="crayon-line" id="crayon-5a907cf173dd6809048786-3"&gt;&lt;span class="crayon-ta"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;em&gt;Line&lt;/em&gt; is a function that determines the path for given two objects and their positions. This function has 9 parameters. First two parameter is required and others are optimal.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;em&gt;Line(object1, object2, position1, position2, _text, _text_size, _description, _stroke_color, _text_color)&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul style="list-style-type: circle;"&gt;
+&lt;li style="text-align: justify;"&gt;object1 ve object2: are variables that is defined in the previous section.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;position1 and position2: are position information of objects. There are four positions for all shapes. Top=0, Bottom=1, Left=2 and Right=3. But, when these values are not entered or entered &amp;#8220;-1&amp;#8221;, this function automatically determines these position by calculating differences between all unused positions. (Unused position means that this position is used for creating lines)&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt; _text and _text_size: text in line. This function selects the longest sub-line for writing text.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;&lt;em&gt;description, _stroke_color, _text_color: (same with previous section)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Click for download files from &lt;strong&gt;&lt;a href="https://github.com/erdincuzun/obfc.js" target="_blank" rel="noopener"&gt;GitHub&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Licence&lt;/h2&gt;
+&lt;p style="text-align: justify;"&gt;Copyright (c) 2017 Erdinç Uzun&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;#8220;Software&amp;#8221;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;THE SOFTWARE IS PROVIDED &amp;#8220;AS IS&amp;#8221;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+	&lt;/div&gt;&lt;!-- .entry-content --&gt;
+
+&lt;/article&gt;&lt;!-- #post-## --&gt;
+
+	&lt;nav class="navigation post-navigation" role="navigation"&gt;
+		&lt;h2 class="screen-reader-text"&gt;Yazı dolaşımı&lt;/h2&gt;
+		&lt;div class="nav-links"&gt;&lt;div class="nav-previous"&gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-example/" rel="prev"&gt;2. obfc.js: Example&lt;/a&gt;&lt;/div&gt;&lt;div class="nav-next"&gt;&lt;a href="https://www.e-adys.com/veri_yapilari/algoritmanin-onemi-ve-programlama-diline-aktarilmasi/" rel="next"&gt;Algoritmanın Önemi ve Programlama Diline Aktarılması&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+	&lt;/nav&gt;
+		&lt;/main&gt;&lt;!-- #main --&gt;
+	&lt;/section&gt;&lt;!-- #primary --&gt;
+
+
+&lt;aside id="secondary" class="widget-area col-sm-12 col-md-12 col-lg-4" role="complementary"&gt;
+	&lt;section id="lsi_widget-2" class="widget widget_lsi_widget"&gt;&lt;ul class="lsi-social-icons icon-set-lsi_widget-2" style="text-align: center"&gt;&lt;li class="lsi-social-github"&gt;&lt;a class="" rel="nofollow" title="Github" aria-label="Github" href="https://github.com/erdincuzun" target="_blank"&gt;&lt;i class="lsicon lsicon-github"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="lsi-social-youtube"&gt;&lt;a class="" rel="nofollow" title="YouTube" aria-label="YouTube" href="https://www.youtube.com/channel/UCdGlCf2RuXpeNFqWjVRmpXQ" target="_blank"&gt;&lt;i class="lsicon lsicon-youtube"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="lsi-social-jsfiddle"&gt;&lt;a class="" rel="nofollow" title="JSFiddle" aria-label="JSFiddle" href="https://jsfiddle.net/user/erdincuzun/fiddles/" target="_blank"&gt;&lt;i class="lsicon lsicon-jsfiddle"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="lsi-social-linkedin"&gt;&lt;a class="" rel="nofollow" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/erdinc-uzun-17ba7523/" target="_blank"&gt;&lt;i class="lsicon lsicon-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="lsi-social-fivehundredpx"&gt;&lt;a class="" rel="nofollow" title="500px" aria-label="500px" href="https://www.researchgate.net/profile/Erdinc_Uzun" target="_blank"&gt;&lt;i class="lsicon lsicon-fivehundredpx"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section id="search-2" class="widget widget_search"&gt;&lt;form role="search" method="get" class="search-form" action="https://www.e-adys.com/"&gt;
+    &lt;label&gt;
+        &lt;input type="search" class="search-field form-control" placeholder="Search &amp;hellip;" value="" name="s" title="Search for:"&gt;
+    &lt;/label&gt;
+    &lt;input type="submit" class="search-submit btn btn-default" value="Search"&gt;
+&lt;/form&gt;
+
+
+
+&lt;/section&gt;&lt;section id="listcategorypostswidget-2" class="widget widget_listcategorypostswidget"&gt;&lt;h3 class="widget-title"&gt;Konular&lt;/h3&gt;&lt;ul id="lcp_instance_listcategorypostswidget-2"&gt;&lt;li class="current"&gt;&lt;a href="https://www.e-adys.com/obfc-js/object-based-flow-charts-obfc-js/" title="1. Object-Based Flow Charts (obfc.js)"&gt;1. Object-Based Flow Charts (obfc.js)&lt;/a&gt;  &lt;/li&gt;&lt;li &gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-example/" title="2. obfc.js: Example"&gt;2. obfc.js: Example&lt;/a&gt;  &lt;/li&gt;&lt;li &gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-properties-of-a-svg-shape/" title="3. obfc.js: Properties of a SVG shape"&gt;3. obfc.js: Properties of a SVG shape&lt;/a&gt;  &lt;/li&gt;&lt;li &gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-all-svg-shapes/" title="4. obfc.js: All SVG Shapes"&gt;4. obfc.js: All SVG Shapes&lt;/a&gt;  &lt;/li&gt;&lt;li &gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-creating-lines/" title="5. obfc.js: Creating Lines"&gt;5. obfc.js: Creating Lines&lt;/a&gt;  &lt;/li&gt;&lt;li &gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-collision-detection-editmode-and-console-log/" title="6. obfc.js: Collision Detection, Editmode and Console.log"&gt;6. obfc.js: Collision Detection, Editmode and Console.log&lt;/a&gt;  &lt;/li&gt;&lt;li &gt;&lt;a href="https://www.e-adys.com/obfc-js/obfc-js-free_draw-and-free_write-functions/" title="7. obfc.js: free_draw and free_write functions"&gt;7. obfc.js: free_draw and free_write functions&lt;/a&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;a href="https://www.e-adys.com/category/obfc-js/" &gt; &lt;/a&gt;&lt;/section&gt;&lt;section id="custom_html-4" class="widget_text widget widget_custom_html"&gt;&lt;div class="textwidget custom-html-widget"&gt;&lt;/div&gt;&lt;/section&gt;&lt;/aside&gt;&lt;!-- #secondary --&gt;
+			&lt;/div&gt;&lt;!-- .row --&gt;
+		&lt;/div&gt;&lt;!-- .container --&gt;
+	&lt;/div&gt;&lt;!-- #content --&gt;
+    	&lt;footer id="colophon" class="site-footer" role="contentinfo"&gt;
+		&lt;div class="container"&gt;
+            &lt;div class="site-info"&gt;
+                Copyright © 2017
+                &lt;span class="sep"&gt; | &lt;/span&gt;
+                Erdinç Uzun
+            &lt;/div&gt;&lt;!-- close .site-info --&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;&lt;!-- #colophon --&gt;
+&lt;/div&gt;&lt;!-- #page --&gt;
+
+&lt;link rel='stylesheet' id='crayon-css'  href='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta'  media='all' /&gt;
+&lt;link rel='stylesheet' id='lsi-style-css'  href='https://www.e-adys.com/wp-content/plugins/lightweight-social-icons/css/style-min.css?ver=0.9'  media='all' /&gt;
+&lt;style id='lsi-style-inline-css' type='text/css'&gt;
+
+			.icon-set-lsi_widget-2 a, 
+			.icon-set-lsi_widget-2 a:visited, 
+			.icon-set-lsi_widget-2 a:focus {
+				border-radius: 2px;
+				background: #1E72BD !important;
+				color: #FFFFFF !important;
+				font-size: 20px !important;
+			}
+			.icon-set-lsi_widget-2 a:hover {
+				background: #777777 !important;
+				color: #FFFFFF !important;
+			}
+&lt;/style&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/themes/wp-bootstrap-starter/inc/assets/js/skip-link-focus-fix.js?ver=20151215'&gt;&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=20170209'&gt;&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-includes/js/comment-reply.min.js?ver=4.9.3'&gt;&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-includes/js/wp-embed.min.js?ver=4.9.3'&gt;&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+/* &lt;![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/www.e-adys.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"%s ile Kopyala, %s ile Yap\u0131\u015ft\u0131r","minimize":"Kodu Geni\u015fletmek \u0130\u00e7in T\u0131kla"};
+/* ]]&gt; */
+&lt;/script&gt;
+&lt;script  src='https://www.e-adys.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>
