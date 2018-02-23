@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UzunAlgorithmLib", "UzunAlgorithmLib\UzunAlgorithmLib.csproj", "{E8CE080A-9518-499E-BF6B-A025DBF4FDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMAJ", "ESMAJ\ESMAJ.csproj", "{FB72BDB2-138F-4794-B6B3-BBD209C00F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOMBasedAlgorithms", "DOMBasedAlgorithms\DOMBasedAlgorithms.csproj", "{808121C3-15AB-4F5A-A955-B51230A3B563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SET_Parser", "SET_Parser\SET_Parser.csproj", "{1ECC703B-83E0-435E-84D0-C5730A401A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchForm", "SearchForm\SearchForm.csproj", "{21DAA410-12B4-45C8-800D-E1CF8038E840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetGenerator", "DatasetGenerator\DatasetGenerator.csproj", "{314CB3DD-61CA-4754-9A53-B02343BD50CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8CE080A-9518-499E-BF6B-A025DBF4FDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CE080A-9518-499E-BF6B-A025DBF4FDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CE080A-9518-499E-BF6B-A025DBF4FDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CE080A-9518-499E-BF6B-A025DBF4FDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB72BDB2-138F-4794-B6B3-BBD209C00F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB72BDB2-138F-4794-B6B3-BBD209C00F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB72BDB2-138F-4794-B6B3-BBD209C00F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB72BDB2-138F-4794-B6B3-BBD209C00F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808121C3-15AB-4F5A-A955-B51230A3B563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808121C3-15AB-4F5A-A955-B51230A3B563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808121C3-15AB-4F5A-A955-B51230A3B563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808121C3-15AB-4F5A-A955-B51230A3B563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECC703B-83E0-435E-84D0-C5730A401A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECC703B-83E0-435E-84D0-C5730A401A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECC703B-83E0-435E-84D0-C5730A401A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECC703B-83E0-435E-84D0-C5730A401A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DAA410-12B4-45C8-800D-E1CF8038E840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DAA410-12B4-45C8-800D-E1CF8038E840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DAA410-12B4-45C8-800D-E1CF8038E840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DAA410-12B4-45C8-800D-E1CF8038E840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314CB3DD-61CA-4754-9A53-B02343BD50CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314CB3DD-61CA-4754-9A53-B02343BD50CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314CB3DD-61CA-4754-9A53-B02343BD50CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314CB3DD-61CA-4754-9A53-B02343BD50CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFCC5B08-A978-49F0-98A1-BEABC2923929}
+	EndGlobalSection
+EndGlobal
