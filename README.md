@@ -1,5 +1,5 @@
-# UzunExt Algorithm
-UzunExt Algorithm is an efficient and effective web content extractor. The algorithm has two different libraries for extraction and learning process.
+# UzunExt Framework
+The UzunExt Framework is an efficient and effective web content extractor. The framework has two different libraries for extraction and learning process.
 
 # Extraction Stage
 A DOM Tree can be used for extraction from web pages. However, this tree takes all elements in a web page into consideration for this task. UzunExt extracts web content quickly by using string methods and additional information without utilizing DOM Tree. The following method is the extraction stage of this algorithm.
@@ -26,7 +26,7 @@ This library is used for determining parameters of startIndex, endtag_cnt and re
 ```csharp
 UzunExtAlgorithmLib.LearningLayer _LL = new UzunExtAlgorithmLib.LearningLayer(learn_StartingPos, learn_ITC, learn_Repetition);
 ```
-If values of these parameters -1, -1, -1, respecetively; the algorithm decides on appropriate values in a crawling process. For understading the execution of this method, yo can examine the directory : UzunExtAlgorithm/UzunExtTester/DatasetGenerator/.
+If values of these parameters -1, -1, -1, respecetively; the algorithm decides on appropriate values in a crawling process. For understading the execution of this method, yo can examine the directory : UzunExt/UzunExtTester/DatasetGenerator/.
 
 # Licence
 Copyright (c) 2018 Erdinç Uzun
