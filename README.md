@@ -28,6 +28,11 @@ UzunExtAlgorithmLib.LearningLayer _LL = new UzunExtAlgorithmLib.LearningLayer(le
 ```
 If values of these parameters -1, -1, -1, respecetively; the algorithm decides on appropriate values in a crawling process. For understading the execution of this method, yo can examine the directory : UzunExt/UzunExtTester/DatasetGenerator/.
 
+# Publications
+<b>Comparison of Python Libraries used for Web Data Extraction.</b> Uzun, E.; Yerlikaya, T.; and Kırat, O. In 7th International Scientific Conference “TechSys 2018” – Engineering, Technologies and Systems, Technical University of Sofia, Plovdiv Branch May 17-19, pages 108-113, 2018.
+
+<a href="https://www.e-adys.com/yayinlar/" target="_blank">Click for bibtex, downloads, all publications...</a>
+
 # Licence
 Copyright (c) 2018 Erdinç Uzun
 
