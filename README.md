@@ -31,7 +31,7 @@ If values of these parameters -1, -1, -1, respecetively; the algorithm decides o
 # Publications
 <b>Evaluation of Hap, AngleSharp and HtmlDocument in web content extraction.</b> Uzun, E.; Buluş, H., N.; Doruk, A.; and Özhan, E. In International Scientific Conference’2017 (UNITECH’17), volume 2, pages 275-278, 2017. 
 
-<a href="https://www.e-adys.com/yayinlar/" target="_blank">Click for bibtex, downloads, all publications...</a>
+<a href="https://erdincuzun.com/yayinlar/" target="_blank">Click for bibtex, downloads, all publications...</a>
 
 # Licence
 Copyright (c) 2018 Erdinç Uzun
