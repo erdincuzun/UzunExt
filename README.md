@@ -1,5 +1,5 @@
-# UzunExt Framework
-The UzunExt Framework is an efficient and effective web content extractor. The framework has two different libraries for extraction and learning process.
+# UzunExt Approach
+The UzunExt Approach is an efficient and effective web content extractor. The approach has two different libraries for extraction and learning process.
 
 # Extraction Stage
 A DOM Tree can be used for extraction from web pages. However, this tree takes all elements in a web page into consideration for this task. UzunExt extracts web content quickly by using string methods and additional information without utilizing DOM Tree. The following method is the extraction stage of this algorithm.
